@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Transparent">
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="13dp"
+        android:layout_centerInParent="true"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <ImageView
+            android:id="@+id/iv"
+            android:src="@drawable/bg_card"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <ScrollView
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="100dp"
+            android:layout_height="100dp">
+            <TextView
+                android:minHeight="100dp"
+                android:id="@+id/desc"
+                android:layout_width="match_parent"
+                android:padding="16dp"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+        <Button
+            android:layout_width="match_parent"
+            android:text="play"
+            android:layout_margin="15dp"
+            android:onClick="finish"
+            android:layout_gravity="bottom"
+            android:background="@drawable/rectangleround"
+            android:textColor="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textSize="32sp"
+            android:layout_marginBottom="16dp"
+            android:layout_height="80dp" />
+        <TextView
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="200dp"
+            android:id="@+id/title"
+            android:textSize="32sp"
+            android:padding="16dp"
+            android:text="@string/app_name"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-medium"
+            android:background="@drawable/gradient_dark_rec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

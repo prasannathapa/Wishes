@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfile">
+
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:id="@+id/profile_canvas"
+        android:layout_width="260dp"
+        android:layout_height="260dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            app:civ_border_color="@color/colorPrimaryDark"
+            app:civ_border_width="4dp"
+            android:layout_height="match_parent"
+            android:id="@+id/profice_picture"
+            android:src="@drawable/profile_placeholder"
+            />
+        <ImageButton
+            android:onClick="loadPhoto"
+            android:layout_margin="8dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/ic_edit_24dp"
+            android:padding="26dp"
+            android:background="@drawable/circle"/>
+    </RelativeLayout>
+
+
+    <EditText
+        android:hint="Your Name"
+        android:id="@+id/profile_name"
+        android:gravity="center"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_below="@id/profile_canvas"/>
+    <Button
+        android:onClick="uploadPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_name"
+        android:padding="16dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rectangleround"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="SAVE"
+        android:textColor="#FFF"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"/>
+
+</RelativeLayout>

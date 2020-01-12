@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "91332845763",
+    "firebase_url": "https://wishes-f1acc.firebaseio.com",
+    "project_id": "wishes-f1acc",
+    "storage_bucket": "wishes-f1acc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91332845763:android:de5f1c462740f9ca",
+        "android_client_info": {
+          "package_name": "snowf0x.github.io.wishes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91332845763-jjl9rvnfdudl9toa7lui1tom209en1lp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "snowf0x.github.io.wishes",
+            "certificate_hash": "be58780d4f7f66ffcafb250a61fc9f5de95231bf"
+          }
+        },
+        {
+          "client_id": "91332845763-buue1u76nmtnla5a95b1131f0mfef53c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXt0nG4GkdVHcQsMlAnTV2JJ7bOMjfz1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91332845763-buue1u76nmtnla5a95b1131f0mfef53c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

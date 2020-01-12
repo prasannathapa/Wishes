@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C3F41"
+    tools:context=".WishHandler">
+
+    <ImageView
+        android:id="@+id/iv_wish_handler"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_card"
+        android:layout_width="match_parent"
+        android:layout_height="260dp" />
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_margin="16dp"
+        android:layout_below="@id/tv_wish_handler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:background="#2D2F31"
+        android:layout_below="@id/iv_wish_handler"
+        android:textColor="@color/colorPrimary"
+        android:text="with love,\nPrasanna Thapa"
+        android:textSize="32sp"
+        android:padding="24dp"
+        android:id="@+id/tv_wish_handler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="Downloading..."
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:layout_alignBottom="@id/pb"
+        android:layout_below="@id/tv_wish_handler"
+        android:layout_toEndOf="@id/pb"/>
+    <TextView
+        android:id="@+id/content_wish_handler"
+        android:background="#4E5051"
+        android:textSize="24sp"
+        android:textColor="@color/colorAccent"
+        android:text="Pages: 1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/pb"/>
+
+</RelativeLayout>

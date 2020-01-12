@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+    <TextView
+        android:id="@+id/title"
+        android:elevation="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:padding="16dp"
+        android:text="@string/app_name"/>
+
+    <Button
+        android:id="@+id/exit"
+        android:onClick="reset"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangleround"
+        android:text="Logout &amp; exit"/>
+    <WebView
+        android:layout_below="@id/title"
+        android:id="@+id/web"
+        android:layout_above="@id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </WebView>
+</RelativeLayout>

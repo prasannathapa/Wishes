@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <group  android:id="@+id/g1">
+        <item
+            android:id="@+id/profile_menu"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/ic_account_circle"
+            android:title="Profile"
+            />
+    </group>
+    <group >
+        <item
+            android:id="@+id/wishes_menu"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/gift_24dp"
+            android:title="@string/app_name"
+            />
+        <item
+            android:id="@+id/pages_menu"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/ic_pages_24dp"
+            android:title="My Pages"
+            />
+    </group>
+    <group android:id="@+id/g2">
+        <item
+            android:id="@+id/settings_menu"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/ic_settings_24dp"
+            android:title="Settings"
+            />
+    </group>
+</menu>
