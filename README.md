@@ -10,4 +10,6 @@ Create your own pages (via uploading images) and share them with a link generate
 ![]()
 -------
 # View on Product hunt
+https://prasannathapa.github.io/wish-app/
+
 [![Learn More](https://img.youtube.com/vi/saj9mDYzUh0/0.jpg)](https://www.producthunt.com/posts/wishes)
